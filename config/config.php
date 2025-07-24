@@ -1,6 +1,8 @@
 <?php
+if (!defined('HOST')) define('HOST', 'localhost');
+if (!defined('DBNAME')) define('DBNAME', 'restoran');
+if (!defined('USER')) define('USER', 'root');
+if (!defined('PASS')) define('PASS', '');
 
-    define("HOST", "localhost");
-    define("DBNAME", "restoran");
-    define("USER", "root");
-    define("PASS", "");
+if (!defined('APPURL')) define('APPURL', 'http://localhost/restoran');
+?>

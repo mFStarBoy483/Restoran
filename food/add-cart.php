@@ -91,7 +91,7 @@
                         <div class="row g-4 mb-4">
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                                    <h3>Price: $ <?php echo $one->price; ?> </h3>                                   
+                                    <h3>Price: ₹ <?php echo $one->price; ?> </h3>                                   
                                 </div>
                             </div>
                            

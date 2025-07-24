@@ -76,7 +76,7 @@
                         </tbody>
                       </table>
                       <div class="position-relative mx-auto" style="max-width: 400px; padding-left: 679px;">
-                        <p style="margin-left: -7px;" class="w-19 py-3 ps-4 pe-5" type="text"> Total: $<?php echo $cart_price->all_price; ?></p>
+                        <p style="margin-left: -7px;" class="w-19 py-3 ps-4 pe-5" type="text"> Total: ₹<?php echo $cart_price->all_price; ?></p>
                         <form method="POST" action="cart.php">
                             <button  name="submit" type="submit" class="btn btn-primary py-2 top-0 end-0 mt-2 me-2">Checkout</button>
                         </form>
